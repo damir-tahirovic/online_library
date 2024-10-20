@@ -1,17 +1,23 @@
 <?php
 
 namespace App\Models;
+
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
+
 // use App\Models\Book;
 use App\Models\Author;
 
 class Publisher extends Model implements HasMedia
 {
     use HasFactory, InteractsWithMedia;
+
+    protected $fillable = [
+        'name', 'address', 'website', 'email', 'phone', 'established_year'
+    ];
 
     public function registerMediaCollections(): void
     {
@@ -23,15 +29,6 @@ class Publisher extends Model implements HasMedia
                     ->height(100);
             });
     }
-
-    protected $fillable = [
-        'name', 'address', 'website', 'email', 'phone', 'established_year'
-        ];
-
-    // public function books()
-    // {
-    //     return $this->hasMany(Book::class);
-    // }
 
     // public function authors()
     // {
@@ -51,10 +48,10 @@ class Publisher extends Model implements HasMedia
 
     // }
 
-    // public function books()
-    // {
-    //     return $this->hasMany(Book::class);
-    // }
+    public function books()
+    {
+        return $this->hasMany(BookPublisher::class);
+    }
 
     public function authors()
     {

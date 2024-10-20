@@ -16,12 +16,12 @@ return new class extends Migration
             $table->string('name');
             $table->text('description');
             $table->integer('number_of_pages');
-            $table->integer('quantity');
+            $table->integer('number_of_copies');
             $table->string('isbn');
             $table->string('language');
-            $table->enum('script', ['latin', 'cyrilic', 'arabic']);
-            $table->enum('binding', ['hardcover', 'paperback', 'spiral', 'stapled', 'saddle-stitched']);
-            $table->enum('dimensions', ['A4', 'A5', '7.6 x 25 cm', '15.2 x 22.9 cm', '14 x 21.6 cm']);
+            $table->enum('script', ['cyrilic', 'latin', 'arabic']);
+            $table->enum('binding', ['hardcover', 'paperback', 'spiral-bound']);
+            $table->string('dimensions');
             $table->timestamps();
         });
     }

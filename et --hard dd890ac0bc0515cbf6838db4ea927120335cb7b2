@@ -1,0 +1,1044 @@
+[33mcommit d2c057e616113fdd40c8492e7f7a729bd695485c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msubtask/OL-33/database-structure-for-books[m[33m, [m[1;31morigin/OL-32/book-management[m[33m, [m[1;32mOL-32/book-management[m[33m)[m
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 16:00:16 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-32
+
+[33mcommit bec37f6807303d220965a6aac46973e42ed57d1c[m
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:56:00 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-32 Fixed Model names and made relations to them from Book model
+
+[33mcommit dd890ac0bc0515cbf6838db4ea927120335cb7b2[m
+Merge: efe6601 44bc38d
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:52:00 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-32 merging OL-74/publisher-management
+
+[33mcommit 44bc38d6b4beaaccadca7496f4aff5124639e83e[m[33m ([m[1;31mupstream/OL-74/publisher-management[m[33m, [m[1;31mnew-origin/OL-74/publisher-management[m[33m, [m[1;32mOL-74/publisher-management[m[33m)[m
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:43:58 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73 Merging OL-74/publisher-view-all
+
+[33mcommit 4636d306b3fa28f4715659ab6112c771022936ae[m
+Merge: a82aab0 1885746
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:43:02 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73 Merging OL-74/publisher-view-all
+
+[33mcommit a82aab07b030a0d5ae14ec29b054727a735f1018[m
+Merge: c8894d0 c481127
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:39:59 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73 Merging OL-72/publisher-delete
+
+[33mcommit c8894d07f530f6ed03d1dad84f982d4293759333[m
+Merge: f5e9757 c029f29
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:39:10 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73
+
+[33mcommit f5e9757b449603db0838f1a883ee8a777a1294b1[m
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:37:48 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73
+
+[33mcommit 1885746e99e7f285bdc4dfc61586abbd50f8fd80[m[33m ([m[1;31mupstream/OL-73/publisher-view-all[m[33m, [m[1;31mnew-origin/OL-73/publisher-view-all[m[33m, [m[1;32mOL-73/publisher-view-all[m[33m)[m
+Merge: cbc8dc3 c481127
+Author: damir-tahirovic <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 15:04:34 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73 merge conflicts resolved
+
+[33mcommit c481127c9e7b656e1799d6ae693fa312f488ea87[m[33m ([m[1;31mupstream/OL-72/publisher-delete[m[33m, [m[1;31mnew-origin/OL-72/publisher-delete[m[33m, [m[1;32mOL-72/publisher-delete[m[33m)[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Sun Oct 20 14:21:12 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72 deletePublisher method created
+
+[33mcommit f6cf0058882573517c6c85186918948ec5c2f06f[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Tue Oct 15 09:57:35 2024 +0200
+
+    https://github.com/radosevic-dr/online_library/tree/OL-72/publisher-delete merge conflicts resolved with OL-69 published database structure branch
+
+[33mcommit 8cb7af9168b512c81f6498086a1e78a5bc0cb8ed[m
+Merge: 2301940 c029f29
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Tue Oct 15 09:46:58 2024 +0200
+
+    Merge remote-tracking branch 'origin/OL-74/publisher-management' into OL-72/publisher-delete
+    
+    # Conflicts:
+    #       routes/api.php
+
+[33mcommit c029f2954bbe5ee15fd6f551d2fea1b312e630c6[m[33m ([m[1;31morigin/OL-74/publisher-management[m[33m)[m
+Merge: 01e1177 efaca11
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Tue Oct 1 22:10:36 2024 +0200
+
+    Merge pull request #25 from radosevic-dr/subtask/OL-71/publisher-view
+    
+    subtask/OL-71/publisher-view
+
+[33mcommit efaca1126172ac2aaab7d569f127bbe1a3ef8879[m[33m ([m[1;31mupstream/subtask/OL-71/publisher-view[m[33m, [m[1;31morigin/subtask/OL-71/publisher-view[m[33m, [m[1;31mnew-origin/subtask/OL-71/publisher-view[m[33m)[m
+Merge: 2ee5445 01e1177
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Tue Oct 1 22:10:04 2024 +0200
+
+    Merge branch 'OL-74/publisher-management' into subtask/OL-71/publisher-view
+
+[33mcommit 01e1177e4c4358a84124861ce977e5ce8de26667[m
+Merge: 15e175e 52442f6
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Tue Oct 1 22:01:29 2024 +0200
+
+    Merge pull request #24 from radosevic-dr/subtask/OL-70/publisher-creation
+    
+    Subtask/ol 70/publisher creation
+
+[33mcommit 52442f61a38903d4cff75c8f75239a640b3b3ab9[m[33m ([m[1;31mupstream/subtask/OL-70/publisher-creation[m[33m, [m[1;31morigin/subtask/OL-70/publisher-creation[m[33m, [m[1;31mnew-origin/subtask/OL-70/publisher-creation[m[33m)[m
+Merge: 1e05912 15e175e
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Tue Oct 1 22:01:18 2024 +0200
+
+    Merge branch 'OL-74/publisher-management' into subtask/OL-70/publisher-creation
+
+[33mcommit 15e175e055501cd75b34e48f2dbc0d99e6ef8e98[m
+Merge: 8391301 bf8448e
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Tue Oct 1 21:46:12 2024 +0200
+
+    Merge pull request #35 from radosevic-dr/subtask/OL-69/publisher-database-structure
+    
+    Subtask/ol 69/publisher database structure
+
+[33mcommit bf8448e78f61bbb82b13f60e0bc7020b7d67ed8a[m[33m ([m[1;31mupstream/subtask/OL-69/publisher-database-structure[m[33m, [m[1;31morigin/subtask/OL-69/publisher-database-structure[m[33m, [m[1;31mnew-origin/subtask/OL-69/publisher-database-structure[m[33m)[m
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Tue Oct 1 21:45:37 2024 +0200
+
+    Update Publisher.php
+    
+    Removed unused code
+
+[33mcommit c5064eb7c0518a9b93aa2c0dbd017a898e1ce414[m
+Merge: 542ba6d 8391301
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Mon Sep 30 20:16:24 2024 +0200
+
+    Merge branch 'OL-74/publisher-management' into subtask/OL-69/publisher-database-structure
+
+[33mcommit 8391301047ece39765f2cb95599660acd5fdaa49[m
+Merge: 7bc15b2 218006d
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Mon Sep 23 19:29:29 2024 +0200
+
+    solved mc
+
+[33mcommit 218006de453035c70e861bef8d9996ff1432e74e[m
+Merge: 6248eb0 3581b36
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Mon Sep 23 19:21:05 2024 +0200
+
+    Merge pull request #33 from radosevic-dr/story/OL-57-Book-Category
+    
+    Story/ol 57 book category
+
+[33mcommit 3581b3689271e477aa00a3b2b01e08faaf1e8be1[m[33m ([m[1;31mupstream/story/OL-57-Book-Category[m[33m, [m[1;31morigin/story/OL-57-Book-Category[m[33m, [m[1;31mnew-origin/story/OL-57-Book-Category[m[33m)[m
+Merge: 5093312 c228e0c
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Mon Sep 23 19:19:03 2024 +0200
+
+    Merge pull request #31 from radosevic-dr/subtask/OL-62-Category-view-all-paginated
+    
+    subtask/OL-62-Category-view-all-paginated Implem.
+
+[33mcommit 509331222857730f9d917176e2191738585da632[m
+Merge: 4b3894b 6248eb0
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Sep 19 15:43:04 2024 +0200
+
+    Merge branch 'development' into story/OL-57-Book-Category
+
+[33mcommit c228e0cbabd64c083ccd4046655fa837a9b19501[m[33m ([m[1;31mupstream/subtask/OL-62-Category-view-all-paginated[m[33m, [m[1;31morigin/subtask/OL-62-Category-view-all-paginated[m[33m, [m[1;31mnew-origin/subtask/OL-62-Category-view-all-paginated[m[33m)[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Sep 19 15:39:09 2024 +0200
+
+    subtask/OL-62-Category-view-all-paginated Fixes
+
+[33mcommit afbe7ac28dd458d0e58a472b1346c0f81608d948[m
+Merge: 0ee3239 4b3894b
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Sep 19 15:21:43 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-62-Category-view-all-paginated
+
+[33mcommit 1e05912d7594aaf531e37d0bc1dc34762978d0e0[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Sep 18 23:13:35 2024 +0200
+
+    Added try/catch block and some types
+
+[33mcommit 6248eb0cbceaec9be392f98b3a0afddb1d10fea5[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Sep 18 11:54:35 2024 +0200
+
+    Added mysql_data/mysql.sock to .gitignore
+
+[33mcommit a6db73f130d1a228441769307251fb216371062b[m
+Merge: c9d8ff8 517f99e
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Sun Sep 15 13:05:07 2024 +0200
+
+    Merge pull request #34 from radosevic-dr/story/OL-30-Reset-Your-Password-Functionality
+    
+    Story/ol 30 reset your password functionality
+
+[33mcommit 517f99e74487ee895342fb00f81936e8222a37bd[m[33m ([m[1;31mupstream/story/OL-30-Reset-Your-Password-Functionality[m[33m, [m[1;31morigin/story/OL-30-Reset-Your-Password-Functionality[m[33m, [m[1;31mnew-origin/story/OL-30-Reset-Your-Password-Functionality[m[33m)[m
+Merge: b84a968 c9d8ff8
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Sun Sep 15 13:03:37 2024 +0200
+
+    Merge Conf solved
+
+[33mcommit b84a96861f6bf904959dc4a294a2ee6812decc3b[m
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Sun Sep 15 13:00:26 2024 +0200
+
+    solved composer lock
+
+[33mcommit 06fc5e3b461448f12c964cbcd0e02eaa33420541[m
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Sun Sep 15 12:50:13 2024 +0200
+
+    Solved bug
+
+[33mcommit 4b3894baf68428c6c37a40960c3207e60e801a78[m
+Merge: 1fe0233 2c4fef3
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Sun Sep 15 12:07:16 2024 +0200
+
+    Merge pull request #32 from radosevic-dr/subtask/OL-61-Category-Edit
+    
+    subtask/OL-61-Category-Edit Implementation
+
+[33mcommit 2c4fef37100b65d0c26877b8d061f093703bdc65[m[33m ([m[1;31mupstream/subtask/OL-61-Category-Edit[m[33m, [m[1;31morigin/subtask/OL-61-Category-Edit[m[33m, [m[1;31mnew-origin/subtask/OL-61-Category-Edit[m[33m)[m
+Merge: 78c486e 1fe0233
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Sep 10 13:14:44 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-61-Category-Edit
+
+[33mcommit 0ee3239bc6f56d1c6bbabdc5f5ce9bd08dbafb84[m
+Merge: f157873 1fe0233
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Sep 10 13:13:01 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-62-Category-view-all-paginated
+
+[33mcommit 1fe02333291c529de67e9b201f1d01fe09496714[m
+Merge: 606ab84 7e2d20e
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Tue Sep 10 09:04:47 2024 +0200
+
+    Merge pull request #30 from radosevic-dr/subtask/OL-60-Category-Delete
+    
+    subtask/OL-60-Category-Delete Implementation
+
+[33mcommit f1578736f050f4fd09636cdf59ae652b70672bc9[m
+Merge: 113f7cd 606ab84
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Sep 10 01:57:52 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-62-Category-view-all-paginated
+
+[33mcommit 78c486ee21eabc66e8ce4470c02c0610571e7227[m
+Merge: 65db47a 606ab84
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Sep 10 01:56:07 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-61-Category-Edit
+
+[33mcommit 7e2d20ea9343e6911ac458fb068052d6ee1e17c7[m[33m ([m[1;31mupstream/subtask/OL-60-Category-Delete[m[33m, [m[1;31morigin/subtask/OL-60-Category-Delete[m[33m, [m[1;31mnew-origin/subtask/OL-60-Category-Delete[m[33m)[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Sep 10 01:52:33 2024 +0200
+
+    subtask/OL-60-Category-Delete Resolved conflicts
+
+[33mcommit 4be585066601f21dfc8bbe1f01409477fada4357[m
+Merge: d4e324b 606ab84
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Sep 10 01:52:23 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-60-Category-Delete
+
+[33mcommit 606ab84ed380f6088a144432ec5e04eedde8c893[m
+Merge: 1ef01ca d9c540d
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Mon Sep 9 21:22:30 2024 +0200
+
+    Merge pull request #29 from radosevic-dr/subtask/OL-59-Category-View
+    
+    subtask/OL-59-Category-View Implementation
+
+[33mcommit 1ef01ca2e1c59538fa90e18bb68f6eeae07e31a5[m
+Merge: 21291f9 fd5efb8
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Mon Sep 9 21:22:22 2024 +0200
+
+    Merge pull request #9 from radosevic-dr/subtask/OL-58/category-creation
+    
+    Subtask/ol 58/category creation
+
+[33mcommit 65db47aba6613f793da8ac03f71928e3b2704a6e[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:55:50 2024 +0200
+
+    subtask/OL-61-Category-Edit removed duplicates
+
+[33mcommit 113f7cd563e46686090e857cbf4977f28d3a4f09[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:53:57 2024 +0200
+
+    subtask/OL-62-Category-view-all-paginated dupl.rem
+
+[33mcommit d4e324bdc15501834e98f8f575f298da6589ea7e[m
+Merge: b533b39 21291f9
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:38:35 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-60-Category-Delete
+
+[33mcommit d9c540d52e1e3ea752276a3f6b377dbd2071c310[m[33m ([m[1;31mupstream/subtask/OL-59-Category-View[m[33m, [m[1;31morigin/subtask/OL-59-Category-View[m[33m, [m[1;31mnew-origin/subtask/OL-59-Category-View[m[33m)[m
+Merge: 02ed0ca 21291f9
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:36:40 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-59-Category-View
+
+[33mcommit fd5efb8c9e5b3e16d205c6cdc9f4679b6106bcb3[m[33m ([m[1;31mupstream/subtask/OL-58/category-creation[m[33m, [m[1;31morigin/subtask/OL-58/category-creation[m[33m, [m[1;31mnew-origin/subtask/OL-58/category-creation[m[33m)[m
+Merge: 6d2446f 21291f9
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:31:30 2024 +0200
+
+    Merge branch 'story/OL-57-Book-Category' into subtask/OL-58/category-creation
+
+[33mcommit 21291f93819fa6c46db979838dd7e91bdbf20b2d[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:24:20 2024 +0200
+
+    story/OL-57-Book-Category Removed duplicate mig.
+
+[33mcommit 6d2446f9924bc7f8ab17d905e935186e99ce55e4[m
+Merge: b2dedb3 c9d8ff8
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Sep 9 20:18:15 2024 +0200
+
+    Merge branch 'development' into subtask/OL-58/category-creation
+
+[33mcommit c9d8ff801c250410834cf44724e1be23b2ad3448[m
+Merge: 3748237 73723bc
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Mon Sep 9 18:04:59 2024 +0200
+
+    Merge pull request #15 from radosevic-dr/subtask/OL-63/book-genres
+    
+    Subtask/ol 63/book genres
+
+[33mcommit b2dedb3235046cdd89173fc63c77307c5b6460df[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sun Sep 8 10:41:50 2024 -0700
+
+    Added category ID in response and make category name unique
+
+[33mcommit 8a960dd7f9b91e85131c3dd46f65beea0726cdf7[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Wed Aug 28 19:10:23 2024 +0200
+
+    subtask/OL-62-Category-view-all-paginated Implem.
+
+[33mcommit 11129356b1944b9e1e1ebc2a790dbe72f6ac1d8d[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Wed Aug 28 19:01:57 2024 +0200
+
+    subtask/OL-61-Category-Edit Implementation
+
+[33mcommit efe66019aeff3ec59e849b697ed08989a169acb7[m[33m ([m[1;31mupstream/subtask/OL-33/database-structure-for-books[m[33m, [m[1;31mupstream/OL-32/book-management[m[33m, [m[1;31morigin/subtask/OL-33/database-structure-for-books[m[33m, [m[1;31mnew-origin/subtask/OL-33/database-structure-for-books[m[33m, [m[1;31mnew-origin/OL-32/book-management[m[33m)[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Tue Aug 27 20:21:23 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-33 Many to many tables created, models also. Commented code should be uncommented once everything is merged
+
+[33mcommit bb40838c763fef9e29c2b7730849bb713347fbb8[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Tue Aug 27 19:53:03 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-33 Book model created
+
+[33mcommit b533b3913b31af19303821da1fb0470a48b9b90d[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Aug 27 16:27:00 2024 +0200
+
+    subtask/OL-60-Category-Delete Implementation
+
+[33mcommit 02ed0ca0a347f7621f0f659b711ecf2d0a9a9cf6[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Aug 27 16:12:07 2024 +0200
+
+    subtask/OL-59-Category-View Implementation
+
+[33mcommit cbc8dc3e4e073c08ca5c2a36347086bbca469b52[m[33m ([m[1;31morigin/OL-73/publisher-view-all[m[33m)[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Tue Aug 27 15:45:07 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73 View all method created
+
+[33mcommit 2301940a5743599470c5a4ffdf4ad84e26dc7ea1[m[33m ([m[1;31morigin/OL-72/publisher-delete[m[33m)[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Tue Aug 27 14:52:44 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72 Delete method created
+
+[33mcommit c6106ad1996991ad443ed22234d314fd88df4499[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 26 15:52:04 2024 +0200
+
+    story/OL-57-Book-Category merged with Category
+    creation branch and did pint style check
+
+[33mcommit 0dea23b5059bf6d907557a45f630bae669e6b7ba[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 26 15:44:19 2024 +0200
+
+    subtask/OL-58/category-creation Fixes,additions
+
+[33mcommit 9602af15b0d0e95feb91dafdb633959aa4c8e169[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Fri Aug 23 14:02:24 2024 +0200
+
+    subtask/OL-58/category-creation dev merge
+
+[33mcommit 7e088e26188e2c1ef2d21077370428662ee2cb8f[m
+Merge: 1ef143b 3748237
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Fri Aug 23 14:02:15 2024 +0200
+
+    Merge branch 'development' into subtask/OL-58/category-creation
+
+[33mcommit 2ee5445721204efc91c5664acfbe6a7c64b7cae0[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Thu Aug 22 07:20:03 2024 +0200
+
+    Added registerMediaCollections function
+
+[33mcommit 542ba6d79e23091832ec45a5d2e432bffc81534d[m
+Merge: ccd55d2 3748237
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Thu Aug 22 06:41:57 2024 +0200
+
+    Merge branch 'development' into subtask/OL-69/publisher-database-structure
+
+[33mcommit 73723bc9a354ba22700a9a09a1e4339041bce2d8[m[33m ([m[1;31mupstream/subtask/OL-63/book-genres[m[33m, [m[1;31morigin/subtask/OL-63/book-genres[m[33m, [m[1;31mnew-origin/subtask/OL-63/book-genres[m[33m, [m[1;32msubtask/OL-63/book-genres[m[33m)[m
+Merge: b906ae9 3748237
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Wed Aug 21 20:54:57 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-63 Merge conflicts fixed
+
+[33mcommit b906ae96c8c755c9af558276942dd70f48f24c9c[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Wed Aug 21 19:44:21 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-63 Status codes fixed
+
+[33mcommit d0fb39e5efa7f404979e0832fb2bca1e4057ea14[m
+Merge: c588571 3748237
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Wed Aug 21 06:55:49 2024 +0200
+
+    Merge branch 'development' into OL-72/publisher-delete
+
+[33mcommit 5980452fb9986587543543ce93e2e0021422c5d6[m
+Merge: 8c2b78c 3748237
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Wed Aug 21 06:54:18 2024 +0200
+
+    Merge branch 'development' into OL-73/publisher-view-all
+
+[33mcommit 37482372f50aaaba064d20efaac0095d8cd25501[m[33m ([m[1;31mupstream/OL-38/book-rentals[m[33m, [m[1;31morigin/OL-38/book-rentals[m[33m, [m[1;31mnew-origin/OL-38/book-rentals[m[33m, [m[1;32mdevelopment[m[33m)[m
+Merge: ebb116b 4e9ad51
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Wed Aug 21 06:50:27 2024 +0200
+
+    Merge branch 'main' into development
+
+[33mcommit ccd55d26c84aa9aa3501665760e4dacedcf40d26[m
+Merge: b3155c2 4e9ad51
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Wed Aug 21 06:47:38 2024 +0200
+
+    Merge branch 'main' into subtask/OL-69/publisher-database-structure
+
+[33mcommit a3d9612e17d202c20a12ae75d29a885904818a46[m
+Merge: ffeb8c4 ebb116b
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Wed Aug 21 06:44:41 2024 +0200
+
+    Merge branch 'development' into subtask/OL-70/publisher-creation
+
+[33mcommit d0c4372aee02bdf83fb115e0bbbb1832d6feb069[m
+Merge: 0a0adff ebb116b
+Author: Radosevic Dejan <radosevic.dejan@proton.me>
+Date:   Wed Aug 21 06:41:54 2024 +0200
+
+    Merge branch 'development' into subtask/OL-71/publisher-view
+
+[33mcommit 4510627e569dd0535ef192f8df1540bef90afb5c[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Aug 20 19:57:44 2024 +0200
+
+    story/OL-30-Reset-Your-Password-Functionality
+
+[33mcommit d6473c0ca805a71f7a920f7e67cc586238fe4d49[m
+Merge: f60d935 ebb116b
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Aug 20 19:57:37 2024 +0200
+
+    Merge branch 'development' into story/OL-30-Reset-Your-Password-Functionality
+
+[33mcommit ebb116b0f20111391c37e824a2be91668bf4f111[m
+Merge: b7dff28 6786a38
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Mon Aug 19 22:37:53 2024 +0200
+
+    Merge pull request #19 from radosevic-dr/subtask/OL-56-Authors-View-All
+    
+    Subtask/ol 56 authors view all
+
+[33mcommit 6786a382c5e1dbea060435ff31c39dc09b0a990e[m[33m ([m[1;31mupstream/subtask/OL-56-Authors-View-All[m[33m, [m[1;31morigin/subtask/OL-56-Authors-View-All[m[33m, [m[1;31mnew-origin/subtask/OL-56-Authors-View-All[m[33m)[m
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Mon Aug 19 22:35:20 2024 +0200
+
+    resolved list test
+
+[33mcommit 9bcaca8518c1507204e2c23d0f1644c35f7030e5[m
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Mon Aug 19 21:41:38 2024 +0200
+
+    create and edit tests pass
+
+[33mcommit f60d935437aae058c9ee9db4663585a03fce4dbc[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 19 14:27:10 2024 +0200
+
+    story/OL-30-Reset-Your-Password-Functionality
+
+[33mcommit 339e47182157c5a2c1b3b5da7cee07f1d90f34fb[m
+Merge: c278d9f b7dff28
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 19 13:58:48 2024 +0200
+
+    Merge branch 'development' into subtask/OL-56-Authors-View-All
+
+[33mcommit b3155c2db6712201f75a52e0bfe90b7babde4a8e[m
+Merge: d6939a0 ffeb8c4
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sat Aug 17 10:14:29 2024 +0200
+
+    Merge branch 'subtask/OL-70/publisher-creation' into subtask/OL-69/publisher-database-structure
+
+[33mcommit ffeb8c4470970bacfe5ff769ff9f5ddb8d6224d9[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sat Aug 17 10:10:56 2024 +0200
+
+    Resolved merge conflicts
+
+[33mcommit e4a0d8ae3a4e52e58532c54da144ca7c9adc2807[m
+Merge: 557e517 0a0adff
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sat Aug 17 10:10:49 2024 +0200
+
+    Merge branch 'subtask/OL-71/publisher-view' into subtask/OL-70/publisher-creation
+
+[33mcommit 0a0adff2e91f10862b08a275afa0bb919e387562[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sat Aug 17 09:48:55 2024 +0200
+
+    Some minor changes
+
+[33mcommit 557e517e9d2328c023da9313f1812da5936dcfe2[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sat Aug 17 09:47:42 2024 +0200
+
+    Minor changes to env.example file
+
+[33mcommit d6939a0c95ee26fceb140d4d064abee98113be66[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sat Aug 17 09:45:50 2024 +0200
+
+    Changed DB_DATABASE value to resolve conflict
+
+[33mcommit 8fc2aef4c8b3f6ebb5f98af1a390bee4692129d1[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Wed Aug 14 20:52:14 2024 +0200
+
+    story/OL-30-Reset-Your-Password-Functionality
+
+[33mcommit b990b324a94ecdd9dbecefd02a1e324feb7ee599[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Aug 14 20:37:27 2024 +0200
+
+    Merged conflict resolved
+
+[33mcommit d4548f31314d86614dd500361a831917c7de525c[m
+Merge: 663f458 3189a26
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Aug 14 20:36:20 2024 +0200
+
+    Merge branch 'subtask/OL-70/publisher-creation' into subtask/OL-69/publisher-database-structure
+
+[33mcommit 3189a2679b05c14fa635ba0b65a5f8cd5782b353[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Aug 14 20:17:59 2024 +0200
+
+    Requested changes in PublisherController applied
+
+[33mcommit 663f458bd5468666fab37e49b05412c228b8f72c[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Aug 14 20:11:54 2024 +0200
+
+    Relations for Book and Author models active
+
+[33mcommit c278d9f1f39699c75f0fe46942336e5f90854434[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Tue Aug 13 11:55:08 2024 +0200
+
+    subtask/OL-56-Authors-View-All
+
+[33mcommit 853003e38709aa1e9b5acdf39faa6c308b3a1c94[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 12 15:17:37 2024 +0200
+
+    story/OL-30-Reset-Your-Password-Functionality
+
+[33mcommit 69353ce4d68daf3693951b0e8c913b3a6b7d8df7[m
+Merge: e4a2374 53a01e1
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Mon Aug 12 13:43:28 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-63 New database used for testing
+
+[33mcommit e4a23740572481237df9738afff52617c3f57d53[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Mon Aug 12 13:27:05 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-63 Auth check finished now completely for librarian and genre routes
+
+[33mcommit 009fdbbc4785b8f31c3dfeee04b7e4307dda85ab[m
+Merge: 3f2564b aadb388
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Mon Aug 12 13:25:40 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-63 Authentication check finished for genre routes. Now only librarians can access genre routes
+
+[33mcommit dbab878622ab94a95bcf486a3c6f1bb1b593e51b[m
+Merge: 66f31a1 b7dff28
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 12 13:02:57 2024 +0200
+
+    Merge branch 'development' into story/OL-30-Reset-Your-Password-Functionality
+
+[33mcommit 66f31a127381455bb72917ad534c4dd25ed7179f[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 12 13:02:03 2024 +0200
+
+    Create .env.testing
+
+[33mcommit ea843d9fbef5ba21051bab44d7f4febc5e326c3c[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Mon Aug 12 13:00:13 2024 +0200
+
+    subtask/OL-56-Authors-View-All Tried to fix tests
+
+[33mcommit 21e8d37c11bbf90767e9eac13bec4e624dc179dc[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Sun Aug 11 19:55:29 2024 +0200
+
+     subtask/OL-56-Authors-View-All Delete Test Fix
+
+[33mcommit 6eae94b556177485d8f258d4cc23f022b8018200[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Sun Aug 11 18:39:32 2024 +0200
+
+    subtask/OL-56-Authors-View-All Testing additions
+
+[33mcommit 57cffd15de76c1fe29339ebd77939ff00dab7295[m
+Merge: e46fe95 53a01e1
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Sun Aug 11 18:21:04 2024 +0200
+
+    Merge remote-tracking branch
+     'origin/test-configuration' into
+     subtask/OL-56-Authors-View-All
+
+[33mcommit 53a01e18dfbae186acad32fd3817e3bad958b222[m[33m ([m[1;31mupstream/test-configuration[m[33m, [m[1;31morigin/test-configuration[m[33m, [m[1;31mnew-origin/test-configuration[m[33m, [m[1;32mtest-configuration[m[33m)[m
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Sat Aug 10 11:07:58 2024 +0200
+
+    git ignore update
+
+[33mcommit da7615df69763843ad0ca196c2ad47603841cf96[m
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Sat Aug 10 10:21:28 2024 +0200
+
+    Test configuration
+
+[33mcommit b7dff28a39c57cc45373fb4570fb348db5ae629a[m
+Merge: 3190874 7b49f21
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Sat Aug 10 10:16:20 2024 +0200
+
+    Merge pull request #21 from radosevic-dr/subtask/OL-31/user-view-all
+    
+    subtask/OL-31/user-view-all
+
+[33mcommit cbc104496f0f28ddb0900f974a83109297287ad4[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 9 16:38:47 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-71 publisher view and view publisher logo added
+
+[33mcommit 4439a2bc4c3836d645e39d477cf86fcacc8569fc[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 9 16:08:50 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-70 publisher createion controller and route with pest test created
+
+[33mcommit e46fe95ad208e9baaf6aa7889746ae48ac7c5dc8[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Fri Aug 9 15:37:34 2024 +0200
+
+    subtask/OL-56-Authors-View-All  fixed some tsts
+
+[33mcommit 9bfd89713bac455b08fa5ba80cd2ef0320a47388[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Fri Aug 9 15:33:04 2024 +0200
+
+    Added lost routes after merging
+
+[33mcommit e0b2a7f52540857759980f5b89f4eab5f96bd8fe[m
+Merge: b4f9953 3190874
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Fri Aug 9 15:30:53 2024 +0200
+
+    Merge branch 'development' into subtask/OL-56-Authors-View-All
+
+[33mcommit 73feeea4c711a2133ae468b2a6c9f897e7efc654[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 9 15:25:23 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-69
+
+[33mcommit 7b49f2174743e6636cf1b8982657f3f4318c2050[m[33m ([m[1;31mupstream/subtask/OL-31/user-view-all[m[33m, [m[1;31morigin/subtask/OL-31/user-view-all[m[33m, [m[1;31mnew-origin/subtask/OL-31/user-view-all[m[33m)[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 9 15:17:25 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-31
+
+[33mcommit 120c848168bd1f1f1f175b86a6a71b88da51c7c6[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 9 15:15:01 2024 +0200
+
+    Added controller and route to view users and filter them by role
+
+[33mcommit b4f99534cfd5b80cb5e5e59b6764ee4081939aa1[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Fri Aug 9 14:51:08 2024 +0200
+
+    subtask/OL-56-Authors-View-All Tried to fix tests
+
+[33mcommit 3190874e72a8139996e20fc4459b3cc115b10121[m
+Merge: e430704 aadb388
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Fri Aug 9 11:22:54 2024 +0200
+
+    Merge pull request #20 from radosevic-dr/subtask/OL-16/user-creation
+    
+    Subtask/ol 16/user creation
+
+[33mcommit 758c1ddc487164147ee3023058d1040d0fdaafc9[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Aug 8 16:48:23 2024 +0200
+
+    subtask/OL-56-Authors-View-All Fixed Auth routes
+
+[33mcommit 3f4dc0873fe1c93f1cd52bd274e769bec1bdd69e[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Aug 8 16:36:29 2024 +0200
+
+    subtask/OL-56-Authors-View-Al Used pint!
+
+[33mcommit 63c0b3048cd994249b2061671231b2d7afbe09e4[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Aug 8 16:31:18 2024 +0200
+
+    subtask/OL-56-Authors-View-All added Docker files
+
+[33mcommit 546b5ce6ceff0ff7eece9e92be9af625c7533747[m
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Thu Aug 8 12:56:57 2024 +0200
+
+    subtask/OL-56-removed-wrong-code
+
+[33mcommit 9690c80592b85e78715a174ee9408be13cd3b120[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Tue Aug 6 19:29:52 2024 +0200
+
+    Controllers for view publisher and view publisher logo added
+
+[33mcommit ac1e15e3e95b589f07a1ff0be5560474a972026c[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Tue Aug 6 19:09:36 2024 +0200
+
+    Added controller for creating Book Publishers
+
+[33mcommit aadb3880a82f94b430f518d2eb7003e542a3b492[m[33m ([m[1;32msubtask/OL-16/user-creation[m[33m)[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Mon Aug 5 19:25:42 2024 +0200
+
+    Added route for allUsers with role options, pagination and search value. Get request controlled by middleware. In delete controller added option for deleting pictures
+
+[33mcommit 8c2b78c3642d2a22c674897d07afa5abb8494cfa[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Mon Aug 5 17:53:50 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-73/Added view-all
+
+[33mcommit 1ef143b066ada913efe99df5f960fd4de89b2212[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Mon Aug 5 16:42:03 2024 +0200
+
+    Resolved some issues
+
+[33mcommit 3f2564bbe2bf68862f2cf524c2fce91450250bd1[m
+Author: ASUS\dtahi <dtahirovic2@gmail.com>
+Date:   Mon Aug 5 10:23:19 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-63 Resolved issues. Only auth check for book genre routes remains
+
+[33mcommit cc0b19d8af8a4bdbc3af3f0dc3875e24477c9fa3[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Sun Aug 4 17:58:24 2024 +0200
+
+    Resolved validation
+
+[33mcommit a166bfb38c366384f295b829583a9f2d5c78801f[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Sun Aug 4 15:47:40 2024 +0200
+
+    Added testing for User
+
+[33mcommit c5885711ed541c7414d65912ce7fe8f8c1928940[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Sat Aug 3 20:06:24 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72/publisher-delete finished
+
+[33mcommit 7298d3fc5cc8b5715a0d50d538777e573c5ee8f9[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Sat Aug 3 13:36:47 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72 Optimization
+
+[33mcommit 3d3d9710d3d262c81380938d79504c6b33d7f43c[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Sat Aug 3 13:24:04 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72 Added route and controller
+
+[33mcommit b6e04d025acb004cd8cd856c62bb31c9b58e27a3[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Sat Aug 3 13:15:25 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72 Added route and controller
+
+[33mcommit b389a474c4b3c6bdef43aa15e7ceed1306f42ae7[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Sat Aug 3 13:10:50 2024 +0200
+
+    https://matijabojanic.atlassian.net/browse/OL-72 Added route and controller
+
+[33mcommit 0fc6bddf9c21671cbb9bee8682b7d32c7a4b6522[m
+Merge: dd7e467 e430704
+Author: Vojislav Vukotic <77846637+VoxMne@users.noreply.github.com>
+Date:   Sat Aug 3 11:54:13 2024 +0200
+
+    Merge branch 'development' into subtask/OL-56-Authors-View-All
+
+[33mcommit 6e3b1dcc12ca67f8374bd3f72ff83582dc4fc701[m
+Merge: 6e36fde 7971b8b
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 2 21:30:05 2024 +0200
+
+    Merge branch 'subtask/OL-16/user-creation' of https://github.com/radosevic-dr/online_library into subtask/OL-16/user-creation
+
+[33mcommit 6e36fde874605ffd7fb2f270b7c1e6dc893338cc[m
+Merge: d46dcb7 31c2dc9
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 2 21:30:00 2024 +0200
+
+    Merge branch 'subtask/OL-18/user-view' into subtask/OL-16/user-creation
+
+[33mcommit 31c2dc9d3c0227567ef6ec368d291ec7c4025cb3[m[33m ([m[1;31mupstream/subtask/OL-18/user-view[m[33m, [m[1;31morigin/subtask/OL-18/user-view[m[33m, [m[1;31mnew-origin/subtask/OL-18/user-view[m[33m)[m
+Merge: 15d4955 a45573c
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 2 21:21:14 2024 +0200
+
+    Merge branch 'subtask/OL-19/user-edit' into subtask/OL-18/user-view
+
+[33mcommit a45573c66daaa0c7a671b500e5298873537815c6[m[33m ([m[1;31mupstream/subtask/OL-19/user-edit[m[33m, [m[1;31morigin/subtask/OL-19/user-edit[m[33m, [m[1;31mnew-origin/subtask/OL-19/user-edit[m[33m)[m
+Merge: f578984 26ccbe4
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 2 21:14:18 2024 +0200
+
+    Merge branch 'subtask/OL-20/user-delete' into subtask/OL-19/user-edit
+    Merging user edit branch with user delete
+
+[33mcommit 7bc15b2bfbb4921e4602748c005fd0d629f64c5e[m
+Merge: cca57a4 2979e3d
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 2 17:27:15 2024 +0200
+
+    Merged publisher-management branch with publisher database
+
+[33mcommit 2979e3d9e840a244495e2d215e4adc653bee3234[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Fri Aug 2 17:22:13 2024 +0200
+
+    Publisher Model
+
+[33mcommit 132d768e0ad6c2db9b6f4d4759bce8f12e4f5743[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Thu Aug 1 21:49:50 2024 +0200
+
+    Publishers model and table created with relations (Book & Author)
+
+[33mcommit cca57a495ec9c38e5824baabcc81613e3dac2f0e[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Thu Aug 1 21:43:52 2024 +0200
+
+    Publisher branch created
+
+[33mcommit ab9f0e3baa13072653566b22306e9f90bc277fa7[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Wed Jul 31 23:27:39 2024 +0200
+
+    Added authorization
+
+[33mcommit f9214ceb457a82b6f904f47e1fa4d8b3bdbef0f2[m
+Merge: 78b1533 e430704
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Wed Jul 31 23:20:00 2024 +0200
+
+    Resolved conflicts
+
+[33mcommit 15d4955d06d9338c987d557b0ddecc0254e5f8c1[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Jul 31 18:54:09 2024 +0200
+
+    Added middleware for User View
+
+[33mcommit e4307041fd3686522b0153ea63d070eb0596c820[m
+Merge: a635540 7971b8b
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Wed Jul 31 18:42:29 2024 +0200
+
+    Merge pull request #12 from radosevic-dr/subtask/OL-16/user-creation
+    
+    Subtask/ol 16/user creation
+
+[33mcommit 7971b8be4867a3870b70727fbaf6e8eec641ecab[m
+Merge: d46dcb7 a635540
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Wed Jul 31 18:42:14 2024 +0200
+
+    merge conf
+
+[33mcommit a635540f46e3833f52254519447ea0d142836ddd[m
+Merge: 6a1a0c4 e19b45c
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Wed Jul 31 18:37:30 2024 +0200
+
+    Merge pull request #8 from radosevic-dr/subtask/OL-23/logout-functionality
+    
+    Subtask/ol 23/logout functionality
+
+[33mcommit e19b45c9643658a72961d35fbfa2279e6256f0a7[m
+Merge: ebd816d 6a1a0c4
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Wed Jul 31 18:36:58 2024 +0200
+
+    mc
+
+[33mcommit 6a1a0c4cfcf8801270de20464d2b48dfda52cc1b[m
+Merge: af7db91 33d665a
+Author: MatijaBojanic <82813838+MatijaBojanic@users.noreply.github.com>
+Date:   Wed Jul 31 18:33:28 2024 +0200
+
+    Merge pull request #6 from radosevic-dr/subtask/OL-22/create-login-endpoint
+    
+    Subtask/ol 22/create login endpoint
+
+[33mcommit 33d665a5c79697ba051728101c91a536fd571741[m
+Merge: 598ec9f af7db91
+Author: MatijaBojanic <matija.bojanic@gmail.com>
+Date:   Wed Jul 31 18:32:02 2024 +0200
+
+    Solved mc
+
+[33mcommit f5789842f5c8d548912c275c143950ca8b78fbe5[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Wed Jul 31 18:01:57 2024 +0200
+
+    Some minor changes in User Controller
+
+[33mcommit 78b1533225e81111f283ef507215016323848ef7[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Wed Jul 31 10:09:04 2024 +0200
+
+    Resolved image path
+
+[33mcommit 910e4645647c3465472dd1b64c2ecf5c7c6bf1d5[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Wed Jul 31 09:45:22 2024 +0200
+
+    Added categoryResource and optimized API calls
+
+[33mcommit 7893e92aade30ac893af08ce01eda93b8cce6819[m
+Author: Geri-PG <123660669+Geri-PG@users.noreply.github.com>
+Date:   Wed Jul 31 08:23:22 2024 +0200
+
+    Deleted blades.
+
+[33mcommit 26ccbe414d58eec9345587ed1c7e46fbda4336be[m[33m ([m[1;31mupstream/subtask/OL-20/user-delete[m[33m, [m[1;31morigin/subtask/OL-20/user-delete[m[33m, [m[1;31mnew-origin/subtask/OL-20/user-delete[m[33m)[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Tue Jul 30 19:31:07 2024 +0200
+
+    Resolved code styling issues
+
+[33mcommit aa652473f08c1a021fe6914df44561f71d24ac22[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Tue Jul 30 19:30:08 2024 +0200
+
+    Imported class for UnauthorizedException
+
+[33mcommit 598ec9fe1591092d561fc7f60d013cfe784e816f[m
+Author: radosevic-dr <radosevic.dejan@proton.me>
+Date:   Tue Jul 30 19:02:5

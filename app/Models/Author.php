@@ -32,4 +32,9 @@ class Author extends Model implements HasMedia
             ->height(232)
             ->sharpen(10);
     }
+
+    public function books()
+    {
+        return $this->hasMany(BookAuthor::class);
+    }
 }
