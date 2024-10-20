@@ -50,6 +50,8 @@ Route::middleware('auth:sanctum')->group(function () {
 
     // Book routes
     Route::post('/auth/books/create', [BookController::class, 'createBook'])->middleware('checkLibrarian')->name('books.create');
+    Route::get('/auth/books/{id}', [BookController::class, 'viewBook'])->middleware('checkLibrarian')->name('books.view');
+    Route::get('/auth/books', [BookController::class, 'viewAllBooks'])->middleware('checkLibrarian')->name('books.index');
 Route::delete('/auth/books/{id}', [BookController::class, 'deleteBook'])->middleware('checkLibrarian')->name('books.delete');
 });
 

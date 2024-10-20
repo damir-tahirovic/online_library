@@ -101,4 +101,24 @@ class BookController extends Controller
         return response()->json(['message' => 'Book deleted'], 200);
     }
 
+
+    public function viewAllBooks()
+    {
+        $books = Book::with(['authors', 'publishers', 'genres', 'categories', 'media'])->get();
+
+        return response()->json($books);
+    }
+
+    public function viewBook(int $id)
+    {
+        $book = Book::findOrFail($id);
+
+        if (!$book) {
+            return response()->json(['message' => 'Book not found'], 404);
+        }
+
+        $book->load(['authors', 'publishers', 'genres', 'categories', 'media']);
+
+        return response()->json($book);
+    }
 }
