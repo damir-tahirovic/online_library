@@ -6,10 +6,10 @@ use App\Http\Requests\CategoryRequest;
 use App\Http\Resources\CategoryResource;
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
-use Illuminate\Http\Response;
 
 class CategoryController extends Controller
 {
@@ -36,9 +36,9 @@ class CategoryController extends Controller
         $categoriesQuery = Category::query();
 
         if ($search) {
-            $categoriesQuery->where(function($query) use ($search) {
+            $categoriesQuery->where(function ($query) use ($search) {
                 $query->where('name', 'LIKE', "%{$search}%")
-                      ->orWhere('description', 'LIKE', "%{$search}%");
+                    ->orWhere('description', 'LIKE', "%{$search}%");
             });
         }
 
@@ -69,7 +69,6 @@ class CategoryController extends Controller
     }
 
     public function update(Category $category, Request $request)
-
     {
         // Update category details
         $category->update($request->validated());
@@ -80,15 +79,13 @@ class CategoryController extends Controller
 
     public function destroy(Category $category)
     {
-     
+
         if ($category->icon && Storage::disk('public')->exists($category->icon)) {
             Storage::disk('public')->delete($category->icon);
         }
 
-        
         $category->delete();
 
-        
         return response()->json(['message' => 'Category deleted successfully'], Response::HTTP_NO_CONTENT);
     }
 }

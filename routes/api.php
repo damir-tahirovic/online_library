@@ -3,11 +3,12 @@
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\PolicyController;
 use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\GenreController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\ForgotPasswordController;
 use App\Http\Controllers\ResetPasswordController;
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\PublisherController;
 
@@ -19,6 +20,10 @@ Route::post('/password/reset', [ResetPasswordController::class, 'reset'])->name(
 Route::get('/reset-password/{token}', function (string $token) {
     return ['token' => $token];
 })->middleware('guest')->name('password.reset');
+
+Route::get('/authors', [AuthorController::class, 'index']);
+Route::get('/authors/{author}/picture', [AuthorController::class, 'getPicture']);
+Route::get('/authors/{author}', [AuthorController::class, 'show']);
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/auth/register', [UserController::class, 'register'])->name('user.register');
@@ -41,6 +46,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::put('/auth/user/update', [UserController::class, 'editUser'])->name('user.edit');
 
     Route::delete('/auth/user/{user}', [UserController::class, 'delete'])->name('user.delete');
+    //Routes for new Librarian Creation and setting password
 
     // Publisher routes
     Route::post('/auth/publishers/create', [PublisherController::class, 'createPublisher'])->name('publishers.create');
@@ -48,15 +54,33 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::delete('/auth/publishers/{id}', [PublisherController::class, 'deletePublisher'])->middleware('checkLibrarian')->name('publishers.delete');
     Route::get('/auth/publishers', [PublisherController::class, 'viewAllPublishers'])->name('publishers.index');
 
-    // Book routes
-    Route::post('/auth/books/create', [BookController::class, 'createBook'])->middleware('checkLibrarian')->name('books.create');
-    Route::get('/auth/books/{id}', [BookController::class, 'viewBook'])->middleware('checkLibrarian')->name('books.view');
-    Route::get('/auth/books', [BookController::class, 'viewAllBooks'])->middleware('checkLibrarian')->name('books.index');
-    Route::delete('/auth/books/{id}', [BookController::class, 'deleteBook'])->middleware('checkLibrarian')->name('books.delete');
-    Route::put('/auth/books/{id}', [BookController::class, 'updateBook'])->middleware('checkLibrarian')->name('books.update');
+    Route::get('/authors', [AuthorController::class, 'index']);
+    Route::get('/authors/{author}/picture', [AuthorController::class, 'getPicture']);
+    Route::get('/authors/{author}', [AuthorController::class, 'show']);
+
+    // Policy routes
+    Route::get('/policies', [PolicyController::class, 'getPolicies']);
+    Route::put('/policies/{id}/edit', [PolicyController::class, 'editPolicyPeriod']);
 });
 
+// Category routes
+Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
 
-Route::get('/authors', [AuthorController::class, 'index']);
-Route::get('/authors/{author}/picture', [AuthorController::class, 'getPicture']);
-Route::get('/authors/{author}', [AuthorController::class, 'show']);
+Route::apiResource('category', CategoryController::class);
+Route::post('/upload-icon/{category}', [ImageController::class, 'uploadIcon']);
+
+Route::apiResource('categories', CategoryController::class)->only(['update']);
+Route::post('/categories/{category}/icon', [ImageController::class, 'updateIcon'])
+    ->name('categories.updateIcon');
+
+Route::get('/categories/{category}', [CategoryController::class, 'show'])->name('category.show');
+Route::get('/categories/{category}/icon', [CategoryController::class, 'showIcon'])->name('category.icon');
+
+Route::delete('/categories/{category}', [CategoryController::class, 'destroy'])->name('category.destroy');
+
+// Book routes
+Route::post('/auth/books/create', [BookController::class, 'createBook'])->middleware('checkLibrarian')->name('books.create');
+Route::get('/auth/books/{id}', [BookController::class, 'viewBook'])->middleware('checkLibrarian')->name('books.view');
+Route::get('/auth/books', [BookController::class, 'viewAllBooks'])->middleware('checkLibrarian')->name('books.index');
+Route::delete('/auth/books/{id}', [BookController::class, 'deleteBook'])->middleware('checkLibrarian')->name('books.delete');
+Route::put('/auth/books/{id}', [BookController::class, 'updateBook'])->middleware('checkLibrarian')->name('books.update');

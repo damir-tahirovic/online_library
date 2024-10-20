@@ -1,10 +1,8 @@
 <?php
 
 use App\Models\User;
-use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use function Pest\Laravel\postJson;
+use Illuminate\Support\Facades\Password;
 
 beforeEach(function () {
     $this->artisan('migrate:fresh');

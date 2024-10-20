@@ -26,11 +26,16 @@ class UserController extends Controller
 
         $user = User::create($validateNewUser);
 
+        // Send password reset email immediately after creating the user
+        $token = \Illuminate\Support\Facades\Password::createToken($user);
+        $user->sendPasswordResetNotification($token);
+
+        // If the request contains a profile picture, store it
         if ($request->hasFile('picture')) {
             $user->addMedia($request->file('picture'))->toMediaCollection('profile_picture');
         }
 
-        return $user;
+        return response()->json(['message' => 'User registered successfully, reset email sent.', $user], 201);
     }
 
     public function login(Request $request)

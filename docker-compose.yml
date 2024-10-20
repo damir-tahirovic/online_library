@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   mysql:
     image: mysql:8.0
@@ -12,15 +10,12 @@ services:
       MYSQL_PASSWORD: laravel
     ports:
       - "3306:3306"
-    volumes:
-      - /d/CODE/PROJECTS/online_library/mysql_data:/var/lib/mysql
 
   adminer:
     image: adminer
     container_name: laravel_adminer
     restart: unless-stopped
     ports:
-      - 8080:8080
+      - "8080:8080"
 
-volumes:
-  mysql_data:
+

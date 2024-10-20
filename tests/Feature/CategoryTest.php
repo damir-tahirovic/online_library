@@ -62,7 +62,7 @@ it('can update a category', function () {
             'data' => [
                 'name' => 'Updated Category',
                 'description' => 'Updated Description',
-            ]
+            ],
         ]);
 });
 
@@ -89,7 +89,7 @@ it('can update the category icon', function () {
     ]);
 
 });
-  
+
 it('can view category details', function () {
     loginAsUser();
 
@@ -137,14 +137,11 @@ it('can delete a category and its icon', function () {
 
     Storage::disk('public')->put('icons/icon.png', 'icon-content');
 
-    $response = $this->deleteJson('/api/categories/' . $category->id);
+    $response = $this->deleteJson('/api/categories/'.$category->id);
 
-    
     $response->assertStatus(204);
 
-   
     Storage::disk('public')->assertMissing('icons/icon.png');
 
-    
     $this->assertDatabaseMissing('categories', ['id' => $category->id]);
 });

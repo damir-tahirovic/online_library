@@ -19,15 +19,13 @@ class CategoryFactory extends Factory
 
     /**
      * Define the model's default state.
-     *
-     * @return array
      */
     public function definition(): array
     {
         return [
             'name' => $this->faker->word,
             'description' => $this->faker->sentence,
-            'icon' => 'icons/' . $this->faker->image('public/storage/icons', 400, 300, null, false), // Fake image path
+            'icon' => 'icons/'.$this->faker->image('public/storage/icons', 400, 300, null, false), // Fake image path
         ];
     }
 }
