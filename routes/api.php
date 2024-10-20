@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\AuthorController;
+use App\Http\Controllers\BookController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\GenreController;
 use App\Http\Controllers\ImageController;
@@ -46,6 +47,9 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/auth/publishers/{id}', [PublisherController::class, 'viewPublisher'])->middleware('checkLibrarian')->name('publishers.view');
     Route::delete('/auth/publishers/{id}', [PublisherController::class, 'deletePublisher'])->middleware('checkLibrarian')->name('publishers.delete');
 Route::get('/auth/publishers', [PublisherController::class, 'viewAllPublishers'])->name('publishers.index');
+
+    // Book routes
+    Route::post('/auth/books/create', [BookController::class, 'createBook'])->name('books.create');
 });
 
 

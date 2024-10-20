@@ -4,15 +4,19 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class Book extends Model
+class Book extends Model implements HasMedia
 {
-    use HasFactory;
+
+    use HasFactory, InteractsWithMedia;
 
     protected $fillable = [
         'name',
         'description',
         'number_of_pages',
+        'number_of_copies',
         'quantity',
         'isbn',
         'language',
@@ -27,22 +31,22 @@ class Book extends Model
 
     public function authors()
     {
-        return $this->hasMany(BookAuthor::class);
+        return $this->belongsToMany(Author::class, 'book_authors');
     }
 
     public function publishers()
     {
-        return $this->hasMany(BookPublisher::class);
+        return $this->belongsToMany(Publisher::class, 'book_publishers');
     }
 
     public function genres()
     {
-        return $this->hasMany(BookGenre::class);
+        return $this->belongsToMany(Genre::class, 'book_genres');
     }
 
     public function categories()
     {
-        return $this->hasMany(BookCategory::class);
+        return $this->belongsToMany(Category::class, 'book_categories');
     }
 
 }
